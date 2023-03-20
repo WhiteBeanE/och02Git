@@ -49,7 +49,7 @@ public class Person extends HttpServlet {
 		String notice[] = request.getParameterValues("notice");
 		// 배열 값을 받음
 		String job = request.getParameter("job");
-		out.print("<html><body>");
+		out.print("<html>유정훈 왔다감<body>");
 		out.print("<h1>개인정보</h1>");
 		out.print("이름 : " + name +"<br>");
 		out.print("아이디 : " + id +"<br>");
